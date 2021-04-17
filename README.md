@@ -1,10 +1,10 @@
 # Botlib
-A bot lib for python
+### A bot library for python
 
+# How to use it
+### Download the bot.py file and move it to your project directory.
 
-#How to use it
-Download the bot.py file and move it to your project dir
-
+Example:
 ```py
 from Botlib import Bot
 from random import randint
@@ -23,7 +23,5 @@ def onMessage(ctx:str):
 
 
 bot.onMessage = onMessage
-bot.runBot()
+bot.run()
 ```
-
-a example code on how to use it
